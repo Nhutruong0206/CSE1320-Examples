@@ -18,6 +18,7 @@ int main() {
     int *data = arr->data;
 
     for (int i = 0; i < arr->numel; i++) {
+        int *data= (int *)arr->data+i);
         printf("a[%d] = %d\n", i, data[i]);
     }
 
